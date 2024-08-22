@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  color: #f4f0e9;
+  background: #0b2021;
+}
+
+@layer utilities {
+  .text-outline {
+    text-shadow: -1.5px -1.5px 0 #f4f0e9, 1.5px -1.5px 0 #f4f0e9, -1.5px 1.5px 0 #f4f0e9, 1.5px 1.5px 0 #f4f0e9;
+  }
+}
+
+/* SWIPPER OVERRIDE */
+.swiper-pagination {
+  @apply px-4 py-1 rounded-full bg-[#565762] bg-opacity-60;
+}
