@@ -11,7 +11,7 @@ export default function TimeLine() {
                             <div
                                 className="flex flex-col sm:flex-row items-start mb-1
                                     group-last:before:hidden before:absolute
-                                    before:left-1 sm:before:left-0 before:h-[22rem] md:before:h-full
+                                    before:left-1 sm:before:left-0 before:h-[110%] md:before:h-full
                                     before:px-px before:bg-slate-400 sm:before:ml-[6.5rem]
                                     before:self-start before:-translate-x-1/2 md:before:-translate-x-1.5
                                     before:translate-y-5 md:before:translate-y-3 after:absolute after:left-2
