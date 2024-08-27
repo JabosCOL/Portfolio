@@ -32,7 +32,7 @@ export default function ProjectDisplay({ filteredProjects }: ProjectDisplayProps
                 <SwiperContainer
                     modules={[EffectCoverflow, Autoplay, Pagination]}
                     effect="coverflow"
-                    autoplay={{ pauseOnMouseEnter: true }}
+                    autoplay={{ pauseOnMouseEnter: true, delay: 15000 }}
                     loop={true}
                     pagination={{ dynamicBullets: true }}
                     spaceBetween={30}
