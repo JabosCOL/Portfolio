@@ -77,7 +77,7 @@ export const skills = [
 export const timeLime = [
     {
         id: 1,
-        title: "Full-Stack Developer",
+        title: "Full-stack Developer",
         subtitle: "BINANCE",
         description: "Develop top UI-UX features alongside with Next.js, React.js, Redux & Tailwind \ SASS for the front-end and PostgreSQL, Node & Express at the back-end. I always fulfill the client's requirements and specifications, while identifying chances to optimize and improve code quality.",
         date: "Jul 2024 Jul 2022",
@@ -91,7 +91,7 @@ export const timeLime = [
     },
     {
         id: 3,
-        title: "Web Developer",
+        title: "Full-stack Developer",
         subtitle: "Andes University",
         description: "Learn required technical skills (JavaScript, CSS, PHP, and Drupal) in record time thanks to the university's sponsorship. This helped me to quickly integrate into the development team. Moreover, these skills allowed me to contribute as a team player by assisting and guiding new members of our team. As a result, the overall delivery of approved tickets increased.",
         date: "Jul 2022 Sep 2021",
