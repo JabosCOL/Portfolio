@@ -16,8 +16,8 @@ export default function Header() {
             <header>
                 <div className="container mx-auto md:flex md:justify-between">
                     <Link href="/">
-                        <h1 className="text-4xl font-bold text-center md:text-left">
-                            Jabos<span className="text-secondary">COL</span>
+                        <h1 className="text-4xl uppercase font-bold text-center md:text-left">
+                            David <span className="text-secondary">Bolivar</span>
                         </h1>
                     </Link>
                     <div className="mt-5 md:mt-0 flex items-center justify-center gap-5">
