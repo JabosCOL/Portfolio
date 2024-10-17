@@ -80,7 +80,7 @@ export const timeLime = [
         title: "Full-stack Developer",
         subtitle: "BINANCE",
         description: "Develop top UI-UX features alongside with Next.js, React.js, Redux & Tailwind \ SASS for the front-end and PostgreSQL, Node & Express at the back-end. I always fulfill the client's requirements and specifications, while identifying chances to optimize and improve code quality.",
-        date: "Jul 2024 Jul 2022",
+        date: "Present Jul 2022",
     },
     {
         id: 2,
