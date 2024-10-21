@@ -52,7 +52,7 @@ export default function Home() {
 						</h1>
 
 						<p className="text-xl text-slate-400 text-center md:text-left">
-							As a Full-stack developer, my goal is to blend design and functionality to enhance the user experience.
+							As a Front-end developer, my goal is to blend design and functionality to enhance the user experience.
 						</p>
 
 						<div className="flex items-center justify-center gap-5 md:justify-start">
