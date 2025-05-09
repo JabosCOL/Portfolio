@@ -71,35 +71,46 @@ export const skills = [
     {
         id: 9,
         url: "skills-9.svg"
+    },
+    {
+        id: 10,
+        url: "skills-10.svg"
     }
 ]
 
 export const timeLime = [
     {
         id: 1,
-        title: "Front-end Developer",
-        subtitle: "BINANCE",
-        description: "Develop top UI-UX features alongside with Next.js, React.js, Typescript, Redux & Tailwind at the front-end, and some PostgreSQL, Node.js & Express at the back-end. I always fulfill the client's requirements and specifications, while identifying chances to optimize and improve code quality.",
-        date: "Present Jul 2022",
+        title: "Full-stack Developer",
+        subtitle: "BINANCE - Bogotá D.C",
+        description: "Develop responsive user interfaces using React, Next.js, TypeScript, and TailwindCSS. Build reusable components and collaborate on Java RESTful APIs in Spring Boot environments. Follow Agile/SCRUM practices while debugging and improving application performance across the full development lifecycle.",
+        date: "Present Apr 2024",
     },
     {
         id: 2,
-        title: "Cultural and language immersion",
-        subtitle: "ILSC Education Group - Brisbane AU",
-        description: "Became fluent in English by residing and studying in Australia for approximately 8 months.",
-        date: "Feb 2024 Jul 2023",
+        title: "Software engineering degree",
+        subtitle: "Politécnico - Bogotá D.C",
+        description: "Currently pursuing a degree in Software Development and Engineering at Politécnico Grancolombiano University, with a strong focus on building scalable applications, mastering software architecture principles, and applying engineering best practices to real-world development challenges.",
+        date: "Dec 2026 Feb 2025",
     },
     {
         id: 3,
+        title: "Cultural and language immersion",
+        subtitle: "ILSC Education Group - Brisbane AU",
+        description: "I took a career break to boost my professional profile by moving to Brisbane, Australia. While there, I immersed myself in the local culture and language to improve my English and gain valuable communication and cross-cultural skills—great assets for working in international environments.",
+        date: "Feb 2024 Jul 2023",
+    },
+    {
+        id: 4,
         title: "Back-end Developer",
-        subtitle: "Andes University",
+        subtitle: "Andes University - Bogotá D.C",
         description: "Learn required technical skills (JavaScript, CSS, PHP, and Drupal) in record time thanks to the university's sponsorship. This helped me to quickly integrate into the development team. Moreover, these skills allowed me to contribute as a team player by assisting and guiding new members of our team. As a result, the overall delivery of approved tickets increased.",
         date: "Jul 2022 Sep 2021",
     },
     {
-        id: 4,
+        id: 5,
         title: "Higher Diploma - Software Engineering",
-        subtitle: "SENA Institute",
+        subtitle: "SENA Institute - Bogotá D.C",
         description: "Became an enthusiast software engineer, focusing on databases and web project planning. Thanks to my good grades and engagement in the tech industry, I was called to join Microsoft's AZ-900 apprenticeship program for cloud services with Azure, and soon after, I encouraged myself to participate in the national competition SenaSoft in the category of web development, where I learned to develop and manage a project in a practical setting along with my teammates. Moreover, I was contacted by the Andes University to begin my career journey.",
         date: "Jun 2022 Mar 2019",
     },
@@ -108,7 +119,7 @@ export const timeLime = [
 export const counter = [
     {
         id: 0,
-        endCounter: 3,
+        endCounter: 2,
         text: "Years of experience",
     },
     {
