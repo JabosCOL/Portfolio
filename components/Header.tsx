@@ -3,14 +3,11 @@
 import Link from "next/link";
 import { iconsHeader } from "@/data";
 import MotionTransition from "./TransitionComponent";
-import { usePathname } from "next/navigation";
 
 export default function Header() {
-    const pathname = usePathname()
     return (
         <MotionTransition
             position="bottom"
-            key={pathname}
             className="z-20 absolute top-10 w-full px-5"
         >
             <header>

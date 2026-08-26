@@ -12,7 +12,6 @@ export default function Navbar() {
     return (
         <MotionTransition
             position='right'
-            key={router}
             className='z-20 flex justify-center w-full fixed bottom-10'
         >
             <nav>
@@ -20,9 +19,9 @@ export default function Navbar() {
                     {itemsNavbar.map(item => (
                         <div
                             key={item.id}
-                            className={`px-3 py-2 transition-colors duration-150 rounded-full cursor-pointer hover:bg-secondary ${router === item.link && 'bg-secondary'}`}
+                            className={`transition-colors duration-150 rounded-full cursor-pointer hover:bg-secondary ${router === item.link ? 'bg-secondary' : ''}`}
                         >
-                            <Link href={item.link}>{item.icon}</Link>
+                            <Link href={item.link} className='flex px-3 py-2' aria-label={item.title}>{item.icon}</Link>
                         </div>
                     ))}
                 </div>
