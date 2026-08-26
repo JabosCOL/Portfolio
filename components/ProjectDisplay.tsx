@@ -4,7 +4,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { Swiper as SwiperContainer, SwiperSlide } from "swiper/react"
 import { Autoplay, EffectCoverflow, Pagination } from "swiper/modules";
-import { Eye } from "lucide-react";
+import { ArrowLeft, ArrowRight, Eye } from "lucide-react";
 import Swiper from "swiper/types";
 import { Project } from "@/types";
 import "swiper/css";
@@ -16,6 +16,7 @@ type ProjectDisplayProps = {
 
 export default function ProjectDisplay({ filteredProjects }: ProjectDisplayProps) {
     const [project, setProject] = useState<Project>(filteredProjects[0])
+    const [carousel, setCarousel] = useState<Swiper.Swiper | null>(null)
 
     const handleSlideChange = (swiper: Swiper.Swiper) => {
         const currentIndex = swiper.realIndex;
@@ -29,15 +30,17 @@ export default function ProjectDisplay({ filteredProjects }: ProjectDisplayProps
             exit={{ translateX: 1500, transition: { duration: 0.4, ease: 'easeInOut' } }}
         >
             <div className="flex flex-col justify-center gap-5 mt-5 md:grid md:grid-cols-2 md:max-w-5xl">
+                <div className="flex flex-col items-center gap-4">
                 <SwiperContainer
                     modules={[EffectCoverflow, Autoplay, Pagination]}
                     effect="coverflow"
-                    autoplay={{ pauseOnMouseEnter: true, delay: 15000 }}
+                    autoplay={{ pauseOnMouseEnter: true, delay: 15000, disableOnInteraction: false }}
                     loop={true}
                     pagination={{ dynamicBullets: true }}
                     spaceBetween={30}
                     slidesPerView={1}
                     onSlideChange={handleSlideChange}
+                    onSwiper={setCarousel}
                     className="w-full max-w-sm md:max-w-md rounded-md"
                 >
                     <div className="swiper-wrapper">
@@ -58,6 +61,25 @@ export default function ProjectDisplay({ filteredProjects }: ProjectDisplayProps
                     </div>
                     <div className="swiper-pagination"></div>
                 </SwiperContainer>
+                    <div className="flex items-center justify-center gap-5">
+                        <button
+                            type="button"
+                            onClick={() => carousel?.slidePrev()}
+                            aria-label="Previous project"
+                            className="bg-white/5 p-2 rounded-full hover:bg-secondary transition-colors duration-300"
+                        >
+                            <ArrowLeft width={34} height={34} />
+                        </button>
+                        <button
+                            type="button"
+                            onClick={() => carousel?.slideNext()}
+                            aria-label="Next project"
+                            className="bg-white/5 p-2 rounded-full hover:bg-secondary transition-colors duration-300"
+                        >
+                            <ArrowRight width={34} height={34} />
+                        </button>
+                    </div>
+                </div>
                 <div className="flex flex-col gap-2 justify-center md:order-[-1]">
                     <div>
                         <h2 className="text-5xl md:text-8xl leading-none font-extrabold text-primary text-outline">
