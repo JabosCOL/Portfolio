@@ -40,6 +40,7 @@ export default function SkillsDisplay() {
                             fill
                             sizes="(max-width: 768px) 100vh, 300px"
                             alt="Skill icon"
+                            className="object-contain"
                         />
                     </SwiperSlide>
                 ))}
