@@ -81,9 +81,9 @@ export const skills = [
 export const timeLime = [
     {
         id: 1,
-        title: "Full-stack Developer",
+        title: "Backend Developer, Payment Integrations",
         subtitle: "BINANCE - Bogotá D.C",
-        description: "Develop responsive user interfaces using React, Next.js, TypeScript, and TailwindCSS. Build reusable components and collaborate on Java RESTful APIs in Spring Boot environments. Follow Agile/SCRUM practices while debugging and improving application performance across the full development lifecycle.",
+        description: "Build and maintain payment-provider integrations for cross-border payout APIs across three regional services (APAC, LATAM and EMEA). Process asynchronous payout webhooks (IPN) with HMAC signature validation, and map provider states onto the internal payout lifecycle. Handle monetary values as BigDecimal with explicit scaling, mask account numbers and API keys across DTOs and logs, and cover integrations with JUnit, Mockito and MockServer. Also contribute to the customer-facing UI in React, Next.js and TypeScript.",
         date: "Present Apr 2024",
     },
     {
@@ -91,7 +91,7 @@ export const timeLime = [
         title: "Software engineering degree",
         subtitle: "Politécnico - Bogotá D.C",
         description: "Currently pursuing a degree in Software Development and Engineering at Politécnico Grancolombiano University, with a strong focus on building scalable applications, mastering software architecture principles, and applying engineering best practices to real-world development challenges.",
-        date: "Dec 2026 Feb 2025",
+        date: "Jun 2027 Feb 2025",
     },
     {
         id: 3,
@@ -103,28 +103,28 @@ export const timeLime = [
     {
         id: 4,
         title: "Back-end Developer",
-        subtitle: "Andes University - Bogotá D.C",
-        description: "Learn required technical skills (JavaScript, CSS, PHP, and Drupal) in record time thanks to the university's sponsorship. This helped me to quickly integrate into the development team. Moreover, these skills allowed me to contribute as a team player by assisting and guiding new members of our team. As a result, the overall delivery of approved tickets increased.",
+        subtitle: "Universidad de los Andes - Bogotá D.C",
+        description: "Learned the required technical skills (JavaScript, CSS, PHP, and Drupal) in record time thanks to the university's sponsorship. This helped me to quickly integrate into the development team. Moreover, these skills allowed me to contribute as a team player by assisting and guiding new members of our team. As a result, the overall delivery of approved tickets increased.",
         date: "Jul 2022 Sep 2021",
     },
     {
         id: 5,
         title: "Higher Diploma - Software Engineering",
         subtitle: "SENA Institute - Bogotá D.C",
-        description: "Became an enthusiast software engineer, focusing on databases and web project planning. Thanks to my good grades and engagement in the tech industry, I was called to join Microsoft's AZ-900 apprenticeship program for cloud services with Azure, and soon after, I encouraged myself to participate in the national competition SenaSoft in the category of web development, where I learned to develop and manage a project in a practical setting along with my teammates. Moreover, I was contacted by the Andes University to begin my career journey.",
-        date: "Jun 2022 Mar 2019",
+        description: "Became an enthusiastic software engineer, focusing on databases and web project planning. Thanks to my good grades and engagement in the tech industry, I was called to join Microsoft's AZ-900 apprenticeship program for cloud services with Azure, and soon after, I encouraged myself to participate in the national competition SenaSoft in the category of web development, where I learned to develop and manage a project in a practical setting along with my teammates. Moreover, I was contacted by the Andes University to begin my career journey.",
+        date: "Jul 2022 Jan 2020",
     },
 ]
 
 export const counter = [
     {
         id: 0,
-        endCounter: 2,
+        endCounter: 3,
         text: "Years of experience",
     },
     {
         id: 1,
-        endCounter: 20,
+        endCounter: 13,
         text: "Finished projects",
     },
     {
