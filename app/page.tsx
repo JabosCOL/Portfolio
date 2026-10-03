@@ -52,7 +52,7 @@ export default function Home() {
 						</h1>
 
 						<p className="text-xl text-slate-400 text-center md:text-left">
-							As a Full-stack developer, my goal is to blend design and functionality to enhance the user experience.
+							As a Backend developer, my goal is to build payment integrations that move money accurately and securely across borders.
 						</p>
 
 						<div className="flex items-center justify-center gap-5 md:justify-start">
