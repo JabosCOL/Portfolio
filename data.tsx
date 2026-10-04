@@ -83,7 +83,7 @@ export const timeLime = [
         id: 1,
         title: "Backend Developer, Payment Integrations",
         subtitle: "BINANCE - Bogotá D.C",
-        description: "Build and maintain payment-provider integrations for cross-border payout APIs across three regional services (APAC, LATAM and EMEA). Process asynchronous payout webhooks (IPN) with HMAC signature validation, and map provider states onto the internal payout lifecycle. Handle monetary values as BigDecimal with explicit scaling, mask account numbers and API keys across DTOs and logs, and cover integrations with JUnit, Mockito and MockServer. Also contribute to the customer-facing UI in React, Next.js and TypeScript.",
+        description: "Build and maintain payment-provider integrations for cross-border payout APIs across three regional services (APAC, LATAM and EMEA). Process asynchronous payout webhooks (IPN) with HMAC signature validation, and map provider states onto the internal payout lifecycle. Handle monetary values as BigDecimal with explicit scaling, mask account numbers and API keys across DTOs and logs, and cover integrations with JUnit, Mockito and MockServer. Also contribute to the customer-facing UI in React and Tailwind CSS, with forms in React Hook Form and Yup, tested with Vitest, React Testing Library and Playwright.",
         date: "Present Apr 2024",
     },
     {
